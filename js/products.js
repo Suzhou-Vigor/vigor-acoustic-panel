@@ -13,7 +13,7 @@ const products = [
     categoryName: 'Wood Veneer Series',
     description: 'Crafted with high-quality engineered surfaces, our wood veneer acoustic panels deliver the sophisticated look of natural wood while offering exceptional acoustic performance. Designed to effectively control sound reverberation and reduce echo, these panels combine modern aesthetic elegance with reliable durability for commercial and residential spaces.',
     descriptionZh: '采用高品质工程饰面打造的木饰面吸音板，呈现自然木纹的精致质感，同时具备出色的声学性能。有效控制混响、降低回声，兼具现代美学与可靠耐用性，适用于商业及住宅空间。',
-    coverImage: 'image/product/wood-veneer-1/cover.jpg',
+    coverimage: 'image/product/wood-veneer-1/cover.jpg',
     images: [
       'image/product/wood-veneer-1/1.jpg',
       'image/product/wood-veneer-1/2.jpg',
@@ -46,15 +46,8 @@ const products = [
     categoryName: 'Wood Veneer Series',
     description: '3D fluted wood veneer acoustic panel with a striking vertical groove design, delivering premium sound absorption and a modern sculptural look for home theater and TV feature walls.',
     descriptionZh: '3D竖纹木饰面吸音板，立体凹槽设计带来现代雕塑质感与出色吸音性能，适用于家庭影院和电视背景墙。',
-    coverImage: 'image/product/wood-veneer-2/cover.jpg',
-    images: [
-      'image/product/wood-veneer-2/1.jpg',
-      'image/product/wood-veneer-2/2.jpg',
-      'image/product/wood-veneer-2/3.jpg',
-      'image/product/wood-veneer-2/4.jpg',
-      'image/product/wood-veneer-2/5.jpg',
-      'image/product/wood-veneer-2/6.jpg'
-    ],
+    icon: '🪵',
+    pattern: 'diagonal-pattern',
     material: 'MDF, 100% Polyester Fiber',
     color: 'White Oak, Walnut, Grey Oak, Black Oak, Custom',
     thickness: '15mm, 18mm, 21mm',
@@ -80,15 +73,8 @@ const products = [
     categoryName: 'Wood Veneer Series',
     description: 'Grooved wood veneer acoustic slat panel backed with high-density PET felt, engineered for office walls, reception areas, and corridors to reduce noise while adding a refined wood finish.',
     descriptionZh: '凹槽木饰面吸音条板，背衬高密度PET吸音毡，专为办公室墙面、前台接待区和走廊设计，降噪同时呈现精致木饰面质感。',
-    coverImage: 'image/product/wood-veneer-3/cover.jpg',
-    images: [
-      'image/product/wood-veneer-3/1.jpg',
-      'image/product/wood-veneer-3/2.jpg',
-      'image/product/wood-veneer-3/3.jpg',
-      'image/product/wood-veneer-3/4.jpg',
-      'image/product/wood-veneer-3/5.jpg',
-      'image/product/wood-veneer-3/6.jpg'
-    ],
+    icon: '🪵',
+    pattern: 'diagonal-pattern',
     material: 'MDF, 100% Polyester Fiber',
     color: 'Walnut, White Oak, Black Oak, Smoke Oak, Custom RAL Colors',
     thickness: '18mm, 21mm',
@@ -114,15 +100,8 @@ const products = [
     categoryName: 'Wood Veneer Series',
     description: 'Luxury white oak wood veneer acoustic panel in a premium 21mm thickness, offering elegant meeting room aesthetics with reliable sound control for boardrooms and executive offices.',
     descriptionZh: '豪华白橡木饰面吸音板，21mm 加厚规格，为董事会议室和高管办公室提供优雅外观与可靠的声学控制。',
-    coverImage: 'image/product/wood-veneer-4/cover.jpg',
-    images: [
-      'image/product/wood-veneer-4/1.jpg',
-      'image/product/wood-veneer-4/2.jpg',
-      'image/product/wood-veneer-4/3.jpg',
-      'image/product/wood-veneer-4/4.jpg',
-      'image/product/wood-veneer-4/5.jpg',
-      'image/product/wood-veneer-4/6.jpg'
-    ],
+    icon: '🪵',
+    pattern: 'diagonal-pattern',
     material: 'MDF, 100% Polyester Fiber',
     color: 'White Oak',
     thickness: '21mm',
@@ -150,15 +129,8 @@ const products = [
     categoryName: 'PS Salt Series',
     description: 'Innovative acoustic panels featuring natural salt crystal elements embedded in a premium PS frame. Combining the health benefits of salt therapy with outstanding acoustic performance.',
     descriptionZh: '创新的吸音板，将天然盐晶元素嵌入优质PS框架中。结合盐疗的健康效益与出色的声学性能。',
-    coverImage: 'image/product/ps-salt/cover.jpg',
-    images: [
-      'image/product/ps-salt/1.jpg',
-      'image/product/ps-salt/2.jpg',
-      'image/product/ps-salt/3.jpg',
-      'image/product/ps-salt/4.jpg',
-      'image/product/ps-salt/5.jpg',
-      'image/product/ps-salt/6.jpg'
-    ],
+    icon: '🧂',
+    pattern: 'hex-pattern',
     material: 'PS Frame + Natural Himalayan Salt Crystals + Acoustic Fabric',
     color: 'White, Pink Salt, Grey, Beige, Custom Colors',
     thickness: '25mm, 40mm',
@@ -185,15 +157,8 @@ const products = [
     categoryName: 'PS Salt Series',
     description: 'PS slat acoustic panel combined with polyester fiber acoustic board, offering a trendy slatted look and effective sound absorption for living rooms, bedrooms, and home offices.',
     descriptionZh: 'PS木条吸音板搭配涤纶吸音板芯材，呈现时尚竖条格栅外观并有效吸音，适用于客厅、卧室和家庭办公空间。',
-    coverImage: 'image/product/ps-salt-2/cover.jpg',
-    images: [
-      'image/product/ps-salt-2/1.jpg',
-      'image/product/ps-salt-2/2.jpg',
-      'image/product/ps-salt-2/3.jpg',
-      'image/product/ps-salt-2/4.jpg',
-      'image/product/ps-salt-2/5.jpg',
-      'image/product/ps-salt-2/6.jpg'
-    ],
+    icon: '🧂',
+    pattern: 'hex-pattern',
     material: 'PS Frame + Polyester Fiber Acoustic Board',
     color: 'White, Walnut, Grey Oak, Black, Custom',
     thickness: '21mm',
@@ -219,15 +184,8 @@ const products = [
     categoryName: 'PS Salt Series',
     description: 'Waterproof PS slat wall panel with realistic wood grain finish, quick and easy to install in kitchens, bathrooms, and other moisture-prone areas while providing acoustic comfort.',
     descriptionZh: '防水PS木纹吸音墙板，纹理逼真，安装快捷，适用于厨房、卫生间等潮湿区域，同时提供声学舒适度。',
-    coverImage: 'image/product/ps-salt-3/cover.jpg',
-    images: [
-      'image/product/ps-salt-3/1.jpg',
-      'image/product/ps-salt-3/2.jpg',
-      'image/product/ps-salt-3/3.jpg',
-      'image/product/ps-salt-3/4.jpg',
-      'image/product/ps-salt-3/5.jpg',
-      'image/product/ps-salt-3/6.jpg'
-    ],
+    icon: '🧂',
+    pattern: 'hex-pattern',
     material: 'Waterproof PS + Polyester Fiber',
     color: 'Wood Grain: Walnut, Oak, Grey, Custom',
     thickness: '18mm, 21mm',
@@ -253,15 +211,8 @@ const products = [
     categoryName: 'PS Salt Series',
     description: 'Modern PS acoustic slat panel with a high NRC 0.9 rating, designed for hospitality environments where noise control and sophisticated design go hand in hand.',
     descriptionZh: '现代PS吸音条板，NRC 0.9 高吸音系数，专为酒店与餐饮环境设计，兼顾噪音控制与精致设计感。',
-    coverImage: 'image/product/ps-salt-4/cover.jpg',
-    images: [
-      'image/product/ps-salt-4/1.jpg',
-      'image/product/ps-salt-4/2.jpg',
-      'image/product/ps-salt-4/3.jpg',
-      'image/product/ps-salt-4/4.jpg',
-      'image/product/ps-salt-4/5.jpg',
-      'image/product/ps-salt-4/6.jpg'
-    ],
+    icon: '🧂',
+    pattern: 'hex-pattern',
     material: 'PS Frame + Polyester Fiber + Acoustic Fabric',
     color: 'White, Beige, Grey, Black, Custom',
     thickness: '25mm, 40mm',
@@ -289,15 +240,8 @@ const products = [
     categoryName: 'Hexagon Series',
     description: 'Striking hexagonal wooden acoustic panels that create dynamic geometric wall patterns. Perfect for modern interiors seeking both visual impact and acoustic excellence.',
     descriptionZh: '引人注目的六边形木质吸音板，创造动态几何墙面图案。完美适用于追求视觉冲击力和声学卓越的现代室内空间。',
-    coverImage: 'image/product/hexagon-wood/cover.jpg',
-    images: [
-      'image/product/hexagon-wood/1.jpg',
-      'image/product/hexagon-wood/2.jpg',
-      'image/product/hexagon-wood/3.jpg',
-      'image/product/hexagon-wood/4.jpg',
-      'image/product/hexagon-wood/5.jpg',
-      'image/product/hexagon-wood/6.jpg'
-    ],
+    icon: '⬡',
+    pattern: 'hex-pattern',
     material: 'MDF/Wood Core + Acoustic Felt Backing',
     color: 'Walnut, Grey, Black, White, Custom Colors',
     thickness: '12mm, 15mm, 18mm',
@@ -324,15 +268,8 @@ const products = [
     categoryName: 'Hexagon Series',
     description: 'Hexagon 3D acoustic panel with a sculptural honeycomb design that turns any feature wall into a focal point while absorbing unwanted room echo.',
     descriptionZh: '六边形3D吸音板，蜂窝立体设计让背景墙成为视觉焦点，同时吸收室内多余回声。',
-    coverImage: 'image/product/hexagon-wood-2/cover.jpg',
-    images: [
-      'image/product/hexagon-wood-2/1.jpg',
-      'image/product/hexagon-wood-2/2.jpg',
-      'image/product/hexagon-wood-2/3.jpg',
-      'image/product/hexagon-wood-2/4.jpg',
-      'image/product/hexagon-wood-2/5.jpg',
-      'image/product/hexagon-wood-2/6.jpg'
-    ],
+    icon: '⬡',
+    pattern: 'hex-pattern',
     material: 'MDF + Polyester Fiber Acoustic Core',
     color: 'Walnut, White, Black, Grey, Custom',
     thickness: '12mm, 15mm, 18mm',
@@ -358,15 +295,8 @@ const products = [
     categoryName: 'Hexagon Series',
     description: 'Self-adhesive hexagon acoustic panel made of high-density PET felt, peel-and-stick installation in seconds — perfect for bedrooms, studios, and kids rooms.',
     descriptionZh: '高密度PET吸音毡自粘六边形吸音板，撕开背胶数秒即可安装，非常适合卧室、录音室和儿童房。',
-    coverImage: 'image/product/hexagon-wood-3/cover.jpg',
-    images: [
-      'image/product/hexagon-wood-3/1.jpg',
-      'image/product/hexagon-wood-3/2.jpg',
-      'image/product/hexagon-wood-3/3.jpg',
-      'image/product/hexagon-wood-3/4.jpg',
-      'image/product/hexagon-wood-3/5.jpg',
-      'image/product/hexagon-wood-3/6.jpg'
-    ],
+    icon: '⬡',
+    pattern: 'hex-pattern',
     material: '100% Polyester Fiber (PET)',
     color: 'Grey, White, Black, Beige, Custom',
     thickness: '9mm, 12mm',
@@ -392,15 +322,8 @@ const products = [
     categoryName: 'Hexagon Series',
     description: 'Decorative hexagonal acoustic panel engineered for recording studios and game rooms, reducing harsh reflections with a bold modern geometric look.',
     descriptionZh: '装饰六边形吸音板，专为录音室和游戏房设计，以大胆的现代几何外观减少刺耳的声音反射。',
-    coverImage: 'image/product/hexagon-wood-4/cover.jpg',
-    images: [
-      'image/product/hexagon-wood-4/1.jpg',
-      'image/product/hexagon-wood-4/2.jpg',
-      'image/product/hexagon-wood-4/3.jpg',
-      'image/product/hexagon-wood-4/4.jpg',
-      'image/product/hexagon-wood-4/5.jpg',
-      'image/product/hexagon-wood-4/6.jpg'
-    ],
+    icon: '⬡',
+    pattern: 'hex-pattern',
     material: 'MDF + Acoustic Felt Backing',
     color: 'Walnut, Grey, Black, White, Custom',
     thickness: '12mm, 15mm',
@@ -428,15 +351,8 @@ const products = [
     categoryName: 'Curved Series',
     description: 'Flexible acoustic panels that can be curved and shaped to fit any surface contour. Ideal for architectural features, curved walls, columns, and creative ceiling designs.',
     descriptionZh: '可弯曲成型的柔性吸音板，适应任何表面轮廓。适用于建筑特色、曲面墙体、圆柱和创意天花设计。',
-    coverImage: 'image/product/curved-flexible/cover.jpg',
-    images: [
-      'image/product/curved-flexible/1.jpg',
-      'image/product/curved-flexible/2.jpg',
-      'image/product/curved-flexible/3.jpg',
-      'image/product/curved-flexible/4.jpg',
-      'image/product/curved-flexible/5.jpg',
-      'image/product/curved-flexible/6.jpg'
-    ],
+    icon: '🌀',
+    pattern: 'wave-pattern',
     material: 'Flexible PET Fiber + Fabric Covering',
     color: 'Wide Range of Colors Available, Custom Printing Options',
     thickness: '9mm, 12mm, 15mm',
@@ -463,15 +379,8 @@ const products = [
     categoryName: 'Curved Series',
     description: 'Flexible bendable acoustic panel with a 3D wave design, allowing architects to create flowing curved walls and organic ceilings without sacrificing sound absorption.',
     descriptionZh: '柔性可弯曲吸音板，3D波浪造型让建筑师轻松打造流动的曲面墙体和有机天花，同时保持出色吸音性能。',
-    coverImage: 'image/product/curved-flexible-2/cover.jpg',
-    images: [
-      'image/product/curved-flexible-2/1.jpg',
-      'image/product/curved-flexible-2/2.jpg',
-      'image/product/curved-flexible-2/3.jpg',
-      'image/product/curved-flexible-2/4.jpg',
-      'image/product/curved-flexible-2/5.jpg',
-      'image/product/curved-flexible-2/6.jpg'
-    ],
+    icon: '🌀',
+    pattern: 'wave-pattern',
     material: 'Flexible PET Fiber + Acoustic Fabric',
     color: 'Custom Fabric Colors, Custom Printing',
     thickness: '9mm, 12mm, 15mm',
@@ -497,15 +406,8 @@ const products = [
     categoryName: 'Curved Series',
     description: 'Flexible wood veneer acoustic panel with an MDF surface that bends around columns and pillars, bringing a seamless wood finish and acoustic control to circular structures.',
     descriptionZh: '柔性木饰面吸音板，MDF饰面可弯曲包覆圆柱和立柱，为圆形结构带来无缝木饰面与声学控制。',
-    coverImage: 'image/product/curved-flexible-3/cover.jpg',
-    images: [
-      'image/product/curved-flexible-3/1.jpg',
-      'image/product/curved-flexible-3/2.jpg',
-      'image/product/curved-flexible-3/3.jpg',
-      'image/product/curved-flexible-3/4.jpg',
-      'image/product/curved-flexible-3/5.jpg',
-      'image/product/curved-flexible-3/6.jpg'
-    ],
+    icon: '🌀',
+    pattern: 'wave-pattern',
     material: 'Flexible MDF + PET Fiber',
     color: 'Wood Veneer Finishes: Walnut, Oak, Grey, Custom',
     thickness: '12mm, 15mm',
@@ -531,15 +433,8 @@ const products = [
     categoryName: 'Curved Series',
     description: 'Foldable flexible PET fiber acoustic panel designed for arched ceilings, domes, and theater walls where rigid panels cannot follow the geometry.',
     descriptionZh: '可折叠柔性PET吸音板，专为拱形天花、穹顶和剧院弧形墙面设计，刚性板材无法胜任的曲面它都能贴合。',
-    coverImage: 'image/product/curved-flexible-4/cover.jpg',
-    images: [
-      'image/product/curved-flexible-4/1.jpg',
-      'image/product/curved-flexible-4/2.jpg',
-      'image/product/curved-flexible-4/3.jpg',
-      'image/product/curved-flexible-4/4.jpg',
-      'image/product/curved-flexible-4/5.jpg',
-      'image/product/curved-flexible-4/6.jpg'
-    ],
+    icon: '🌀',
+    pattern: 'wave-pattern',
     material: 'Foldable PET Fiber + Fabric Covering',
     color: 'Wide Color Range, Custom Printing',
     thickness: '9mm, 12mm',
@@ -567,15 +462,8 @@ const products = [
     categoryName: 'Special Shape Series',
     description: 'Custom-shaped wooden acoustic panels manufactured to your exact specifications. From abstract art forms to functional acoustic sculptures, we bring your vision to life.',
     descriptionZh: '按您的精确规格定制的异形木质吸音板。从抽象艺术形式到功能性声学雕塑，我们将您的愿景变为现实。',
-    coverImage: 'image/product/special-shape/cover.jpg',
-    images: [
-      'image/product/special-shape/1.jpg',
-      'image/product/special-shape/2.jpg',
-      'image/product/special-shape/3.jpg',
-      'image/product/special-shape/4.jpg',
-      'image/product/special-shape/5.jpg',
-      'image/product/special-shape/6.jpg'
-    ],
+    icon: '🔷',
+    pattern: 'organic-pattern',
     material: 'Custom MDF/PET + Acoustic Core',
     color: 'Fully Customizable — Any Wood Finish, Stain, or Paint',
     thickness: 'Custom (12mm-50mm)',
@@ -602,15 +490,8 @@ const products = [
     categoryName: 'Special Shape Series',
     description: 'Custom shape 3D acoustic panel precision-cut by CAD/CAM to carry your brand pattern, logo, or artwork on a feature wall that also performs acoustically.',
     descriptionZh: 'CAD/CAM精密切割的定制异形3D吸音板，将品牌图案、标志或艺术图形呈现在兼具声学性能的背景墙上。',
-    coverImage: 'image/product/special-shape-2/cover.jpg',
-    images: [
-      'image/product/special-shape-2/1.jpg',
-      'image/product/special-shape-2/2.jpg',
-      'image/product/special-shape-2/3.jpg',
-      'image/product/special-shape-2/4.jpg',
-      'image/product/special-shape-2/5.jpg',
-      'image/product/special-shape-2/6.jpg'
-    ],
+    icon: '🔷',
+    pattern: 'organic-pattern',
     material: 'Custom MDF + PET/Acoustic Core',
     color: 'Fully Customizable Finishes',
     thickness: 'Custom (12mm-50mm)',
@@ -636,15 +517,8 @@ const products = [
     categoryName: 'Special Shape Series',
     description: 'Pyramid shaped acoustic treatment panel with a deep 3D profile, scattering and absorbing sound for recording studios, auditoriums, and broadcast rooms.',
     descriptionZh: '金字塔形声学处理板，立体深度轮廓可扩散并吸收声波，适用于录音棚、礼堂和演播室。',
-    coverImage: 'image/product/special-shape-3/cover.jpg',
-    images: [
-      'image/product/special-shape-3/1.jpg',
-      'image/product/special-shape-3/2.jpg',
-      'image/product/special-shape-3/3.jpg',
-      'image/product/special-shape-3/4.jpg',
-      'image/product/special-shape-3/5.jpg',
-      'image/product/special-shape-3/6.jpg'
-    ],
+    icon: '🔷',
+    pattern: 'organic-pattern',
     material: 'Polyester Fiber + Acoustic Foam',
     color: 'Black, Grey, Custom Colors',
     thickness: '30mm, 50mm',
@@ -670,15 +544,8 @@ const products = [
     categoryName: 'Special Shape Series',
     description: 'Customized geometric acoustic panel with special-cut shapes for luxury retail and gallery interiors, delivering a bespoke look with built-in acoustic comfort.',
     descriptionZh: '定制几何异形吸音板，特殊切割造型用于高端零售与画廊空间，呈现独一无二的视觉效果并兼顾声学舒适度。',
-    coverImage: 'image/product/special-shape-4/cover.jpg',
-    images: [
-      'image/product/special-shape-4/1.jpg',
-      'image/product/special-shape-4/2.jpg',
-      'image/product/special-shape-4/3.jpg',
-      'image/product/special-shape-4/4.jpg',
-      'image/product/special-shape-4/5.jpg',
-      'image/product/special-shape-4/6.jpg'
-    ],
+    icon: '🔷',
+    pattern: 'organic-pattern',
     material: 'Custom MDF + PET/Acoustic Core',
     color: 'Any Custom Finish and Color',
     thickness: 'Custom (12mm-50mm)',
@@ -731,19 +598,23 @@ function renderProductCards(filterCategory, searchQuery) {
     return;
   }
 
-  grid.innerHTML = filtered.map((p, i) => `
-    <a href="product-detail.html?id=${p.id}" class="product-card animate-fade-in-up delay-${(i % 4) + 1}">
-      <div class="product-card-img">
-        <img src="${p.coverImage}" alt="${p.name}" style="width: 100%; height: 100%; object-fit: cover;">
-      </div>
-      <div class="product-card-body">
-        <div class="product-card-category">${p.categoryName}</div>
-        <h3>${p.name}</h3>
-        <p>${p.description}</p>
-        <span class="product-card-link">View Details →</span>
-      </div>
-    </a>
-  `).join('');
+  grid.innerHTML = filtered.map((p, i) => {
+    // 兼容尚未添加 coverimage 的产品，避免报错，没图片的展示空白背景
+    const coverSrc = p.coverimage ? p.coverimage : '';
+    return `
+      <a href="product-detail.html?id=${p.id}" class="product-card animate-fade-in-up delay-${(i % 4) + 1}">
+        <div class="product-card-img" style="background: #f4f6f8;">
+          ${coverSrc ? `<img src="${coverSrc}" alt="${p.name}" style="width: 100%; height: 100%; object-fit: cover;">` : ''}
+        </div>
+        <div class="product-card-body">
+          <div class="product-card-category">${p.categoryName}</div>
+          <h3>${p.name}</h3>
+          <p>${p.description}</p>
+          <span class="product-card-link">View Details →</span>
+        </div>
+      </a>
+    `;
+  }).join('');
 }
 
 // Detail images per product category (image/details folder)
@@ -778,11 +649,26 @@ function renderProductDetail() {
   document.getElementById('product-category').textContent = product.categoryName;
   document.getElementById('product-description').textContent = product.description;
 
-  // Render main product image dynamically
+  // ========== 关键修改：动态渲染详情页主图 ==========
   const mainImgContainer = document.getElementById('product-main-img');
-  if (mainImgContainer && product.images && product.images.length > 0) {
-    mainImgContainer.className = 'product-main-img'; // Remove any old pattern classes
-    mainImgContainer.innerHTML = `<img id="main-product-image" src="${product.images[0]}" alt="${product.name}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">`;
+  if (mainImgContainer) {
+    // 移除原有样式的 class，保留基础 container
+    mainImgContainer.className = 'product-main-img'; 
+    
+    // 取第一张主图，如果没写 images 数组，则回退尝试取 coverimage
+    let firstImageSrc = '';
+    if (product.images && product.images.length > 0) {
+      firstImageSrc = product.images[0];
+    } else if (product.coverimage) {
+      firstImageSrc = product.coverimage;
+    }
+
+    // 动态植入 img 标签，确保原有的左侧布局完美贴合
+    if (firstImageSrc) {
+      mainImgContainer.innerHTML = `<img id="main-product-image" src="${firstImageSrc}" alt="${product.name}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px; display: block;">`;
+    } else {
+      mainImgContainer.innerHTML = ''; // 如果你还没配图片则留空
+    }
   }
 
   // Update WhatsApp link
@@ -793,41 +679,47 @@ function renderProductDetail() {
 
   // Specs table (in product info column)
   const specsHTML = `
-    <tr><td>Material</td><td>${product.material}</td></tr>
-    <tr><td>Color Options</td><td>${product.color}</td></tr>
-    <tr><td>Thickness</td><td>${product.thickness}</td></tr>
-    <tr><td>Standard Size</td><td>${product.size}</td></tr>
-    <tr><td>Density</td><td>${product.density || 'N/A'}</td></tr>
-    <tr><td>Sound Absorption</td><td>${product.nrc}</td></tr>
-    <tr><td>Fire Rating</td><td>${product.fireRating || 'N/A'}</td></tr>
-    <tr><td>Application</td><td>${product.application}</td></tr>
+    <tr><td>Material</td><td>${product.material || '-'}</td></tr>
+    <tr><td>Color Options</td><td>${product.color || '-'}</td></tr>
+    <tr><td>Thickness</td><td>${product.thickness || '-'}</td></tr>
+    <tr><td>Standard Size</td><td>${product.size || '-'}</td></tr>
+    <tr><td>Density</td><td>${product.density || '-'}</td></tr>
+    <tr><td>Sound Absorption</td><td>${product.nrc || '-'}</td></tr>
+    <tr><td>Fire Rating</td><td>${product.fireRating || '-'}</td></tr>
+    <tr><td>Application</td><td>${product.application || '-'}</td></tr>
   `;
   document.getElementById('specs-table').innerHTML = specsHTML;
 
-  // Detail image (replaces old Features / Details / Specifications tabs)
+  // ========== 底部长图保持原样，不变 ==========
   const detailImg = document.getElementById('detail-image');
   if (detailImg) {
     detailImg.src = detailImages[product.category] || 'image/details/wood.jpg';
     detailImg.alt = `${product.name} - Detail Information`;
   }
 
-  // Render 6 Thumbnails
-  const thumbnailsContainer = document.getElementById('product-thumbnails');
-  if (thumbnailsContainer && product.images) {
-    thumbnailsContainer.innerHTML = product.images.map((imgSrc, i) => `
-      <div class="product-thumb ${i === 0 ? 'active' : ''}" style="padding: 0; overflow: hidden; cursor: pointer;" onclick="switchThumbnail(this, '${imgSrc}')">
-        <img src="${imgSrc}" alt="Thumbnail ${i + 1}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-      </div>
-    `).join('');
+  // ========== 关键修改：渲染左侧主图下方的 6 张缩略图 ==========
+  const thumbsContainer = document.getElementById('product-thumbnails');
+  if (thumbsContainer) {
+    if (product.images && product.images.length > 0) {
+      thumbsContainer.innerHTML = product.images.map((imgSrc, i) => `
+        <div class="product-thumb ${i === 0 ? 'active' : ''}" style="padding: 0; overflow: hidden; border-radius: 4px; cursor: pointer;" onclick="switchThumbnail(this, '${imgSrc}')">
+          <img src="${imgSrc}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+      `).join('');
+    } else {
+      // 没填 images 数组时清空占位符
+      thumbsContainer.innerHTML = '';
+    }
   }
 }
 
+// ========== 关键修改：点击缩略图切换图片而不是 Emoji ==========
 function switchThumbnail(el, imgSrc) {
   document.querySelectorAll('.product-thumb').forEach(t => t.classList.remove('active'));
   el.classList.add('active');
-  const mainImage = document.getElementById('main-product-image');
-  if (mainImage) {
-    mainImage.src = imgSrc;
+  const mainImageEl = document.getElementById('main-product-image');
+  if (mainImageEl) {
+    mainImageEl.src = imgSrc;
   }
 }
 
