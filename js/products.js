@@ -135,23 +135,30 @@ const products = [
     details: 'The 21mm profile gives this white oak panel a substantial, high-end presence while the polyester fiber core controls reverberation so conversations stay crisp. A refined choice for corporate interiors that represent your brand.'
   },
 
-  /* ---------- PS Salt Series ---------- */
+  /* ---------- PS Slat Series ---------- */
   {
-    id: 'ps-salt',
-    name: 'PS Salt Acoustic Panel',
-    nameZh: 'PS盐晶吸音板',
-    category: 'ps-salt',
-    categoryName: 'PS Salt Series',
-    description: 'Innovative acoustic panels featuring natural salt crystal elements embedded in a premium PS frame. Combining the health benefits of salt therapy with outstanding acoustic performance.',
-    descriptionZh: '创新的吸音板，将天然盐晶元素嵌入优质PS框架中。结合盐疗的健康效益与出色的声学性能。',
-    icon: '🧂',
-    pattern: 'hex-pattern',
-    material: 'PS Frame + Natural Himalayan Salt Crystals + Acoustic Fabric',
-    color: 'White, Pink Salt, Grey, Beige, Custom Colors',
-    thickness: '25mm, 40mm',
-    size: '600x600mm, 600x1200mm',
-    nrc: '0.80-0.90 (NRC)',
-    application: 'Wellness Centers, Spas, Yoga Studios, Meditation Rooms, Healthcare Facilities, Luxury Residences',
+    id: 'ps-slat-1',
+    name: 'High Quality Acoustic Ceiling Panels PS Slat Soundproof Wall Panels Sound Insulation Panel Noise Reduction Board',
+    nameZh: '优质吸音天花板PS板隔音墙板隔音板降噪板',
+    category: 'ps-slat',
+    categoryName: 'PS Slat Series',
+    description: 'Engineered with durable polystyrene (PS) materials, our PS slat acoustic panels deliver a sleek, modern wood-look finish without the use of natural wood. These panels combine high-performance sound absorption with moisture-resistant durability, offering an ideal, eco-conscious wall and ceiling solution for contemporary commercial and residential interiors.',
+    descriptionZh: '我们的PS板条隔音板采用耐用的聚苯乙烯（PS）材料设计，在不使用天然木材的情况下，提供光滑、现代的木材外观。这些面板将高性能吸音与防潮耐久性相结合，为当代商业和住宅室内提供了一种理想的、具有环保意识的墙壁和天花板解决方案。',
+    coverimage: 'image/product/PS-slat-1/cover.jpg',
+    images: [
+      'image/product/PS-slat-1/1.jpg',
+      'image/product/PS-slat-1/2.jpg',
+      'image/product/PS-slat-1/3.jpg',
+      'image/product/PS-slat-1/4.jpg',
+      'image/product/PS-slat-1/5.jpg',
+      'image/product/PS-slat-1/6.jpg'
+    ],
+    material: '100% Polyester Fiber, MDF',
+    color: 'Colorful Black,Retro Blue,Customization',
+    thickness: '21mm',
+    size: '2400*600mm/2700*600mm/3000*600mm/600*600mm,Customization',
+    nrc: '0.85(NRC)',
+    application: 'Living rooms, Home offices, Media rooms, Conference rooms, Hotel lobbies, Restaurant...',
     features: [
       'Natural Himalayan salt crystal inlay for air purification',
       'Negative ion release for improved indoor air quality',
