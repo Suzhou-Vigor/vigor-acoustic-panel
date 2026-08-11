@@ -6,7 +6,7 @@
 const products = [
   /* ---------- Wood Veneer Series ---------- */
   {
-    id: 'wood-veneer',
+    id: 'wood-veneer-1',
     name: 'Eco Friendly Wooden Soundproof Board Wood Slat Acoustic Wall Panel Akupanel Sound Absorbing Panelling',
     nameZh: '环保木质隔音板木条吸音墙板Akupanel吸音板',
     category: 'wood-veneer',
@@ -14,6 +14,14 @@ const products = [
     description: 'Crafted with high-quality engineered surfaces, our wood veneer acoustic panels deliver the sophisticated look of natural wood while offering exceptional acoustic performance. Designed to effectively control sound reverberation and reduce echo, these panels combine modern aesthetic elegance with reliable durability for commercial and residential spaces.',
     descriptionZh: '采用高品质工程饰面打造的木饰面吸音板，呈现自然木纹的精致质感，同时具备出色的声学性能。有效控制混响、降低回声，兼具现代美学与可靠耐用性，适用于商业及住宅空间。',
     coverimage: 'image/product/1/cover.jpg',
+    images: [
+      'image/product/1.jpg',
+      'image/product/2.jpg',
+      'image/product/3.jpg',
+      'image/product/4.jpg',
+      'image/product/5.jpg',
+      'image/product/6.jpg'
+    ],
     material: 'MDF, 100% Polyester Fiber',
     color: 'White Oak, Walnut, Walnut JK, Grey Oak, Black Oak, W.Oak, Smoke Oak',
     thickness: '21mm',
