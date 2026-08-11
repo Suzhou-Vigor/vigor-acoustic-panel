@@ -32,40 +32,47 @@
   <div id="product-detail-container">
     <div class="product-detail">
       <div class="container">
-        <a href="products.html" class="back-link">← Back to Products</a>
+        <a href="products.html" class="back-link" style="display: block; margin-bottom: 20px;">← Back to Products</a>
 
-        <div class="product-detail-grid">
-          <!-- Gallery -->
-          <div class="product-main-img" id="product-main-img">
-           <!-- 替换为图片标签，添加 object-fit 保证图片铺满且不变形 -->
-           <img id="main-product-image" src="" alt="Product Image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-          </div>
-            <div class="product-thumbnails" id="product-thumbnails">
+        <!-- ✅ 核心修改区：强制使用 Flex 布局实现完美的左右分栏 -->
+        <div class="product-detail-grid" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; justify-content: space-between;">
+          
+          <!-- 左侧部分：产品画廊（大图在上，缩略图在下） -->
+          <div class="product-gallery" style="flex: 1 1 45%; min-width: 320px; display: flex; flex-direction: column; gap: 15px;">
+            <!-- 产品主图 (大图) -->
+            <div class="product-main-img" id="product-main-img" style="width: 100%;">
+               <img id="main-product-image" src="" alt="Product Image" style="width: 100%; height: auto; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; display: block;">
+            </div>
+            <!-- 缩略图 (排列在大图正下方) -->
+            <div class="product-thumbnails" id="product-thumbnails" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px;">
               <!-- Rendered by JS -->
             </div>
           </div>
 
-          <!-- Product Info -->
-          <div class="product-info">
-            <span class="category-tag" id="product-category">Wood Veneer Series</span>
-            <h1 id="product-name">Wood Veneer Acoustic Panel</h1>
+          <!-- 右侧部分：产品文字与表格信息 -->
+          <div class="product-info" style="flex: 1 1 45%; min-width: 320px;">
+            <span class="category-tag" id="product-category" style="display: inline-block; margin-bottom: 10px;">Wood Veneer Series</span>
+            <h1 id="product-name" style="margin-top: 0;">Wood Veneer Acoustic Panel</h1>
             <p class="product-description" id="product-description"></p>
 
-            <table class="specs-table" id="specs-table">
+            <table class="specs-table" id="specs-table" style="width: 100%; margin-top: 20px;">
               <!-- Rendered by JS -->
             </table>
 
-            <div class="product-actions">
+            <div class="product-actions" style="margin-top: 30px; display: flex; gap: 15px;">
               <a href="contact.html" class="btn btn-primary">Send Inquiry</a>
               <a href="#" id="whatsapp-product-link" class="btn btn-outline" style="color:var(--color-primary);border-color:var(--color-primary);">WhatsApp Inquiry</a>
             </div>
           </div>
+
+        </div>
+        <!-- ✅ 左右分栏结束 -->
+
+        <!-- 底部区域：产品详情长图 (居中铺满) -->
+        <div class="detail-image" style="margin-top: 60px; width: 100%;">
+          <img id="detail-image" src="" alt="Product Detail Information" style="width: 100%; height: auto; border-radius: 8px; display: block;">
         </div>
 
-        <!-- Product Detail Image (replaces old Features/Details/Specifications tabs) -->
-        <div class="detail-image">
-          <img id="detail-image" src="" alt="Product Detail Information">
-        </div>
       </div>
     </div>
   </div>
