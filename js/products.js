@@ -52,9 +52,7 @@ const products = [
     color: 'White Oak, Walnut, Grey Oak, Black Oak, Custom',
     thickness: '15mm, 18mm, 21mm',
     size: '600x600mm, 600x1200mm, Custom Sizes Available',
-    density: '180-220 kg/m³',
     nrc: '0.75-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Home Theaters, TV Walls, Bedrooms, Living Rooms, Listening Rooms',
     features: [
       '3D fluted surface adds depth and visual interest',
@@ -79,9 +77,7 @@ const products = [
     color: 'Walnut, White Oak, Black Oak, Smoke Oak, Custom RAL Colors',
     thickness: '18mm, 21mm',
     size: '600x2400mm, 600x1200mm, Custom Sizes Available',
-    density: '200-240 kg/m³',
     nrc: '0.80-0.95 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Offices, Conference Rooms, Reception Areas, Corridors, Open-Plan Workplaces',
     features: [
       'Classic slat groove pattern with PET felt backing',
@@ -106,9 +102,7 @@ const products = [
     color: 'White Oak',
     thickness: '21mm',
     size: '600x600mm, 600x1200mm, Custom Sizes Available',
-    density: '200-240 kg/m³',
     nrc: '0.80-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Conference Rooms, Boardrooms, Executive Offices, Hotels, Law Firms',
     features: [
       'Premium white oak finish with elegant matte texture',
@@ -135,9 +129,7 @@ const products = [
     color: 'White, Pink Salt, Grey, Beige, Custom Colors',
     thickness: '25mm, 40mm',
     size: '600x600mm, 600x1200mm',
-    density: '80-120 kg/m³ (frame)',
     nrc: '0.80-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Wellness Centers, Spas, Yoga Studios, Meditation Rooms, Healthcare Facilities, Luxury Residences',
     features: [
       'Natural Himalayan salt crystal inlay for air purification',
@@ -163,9 +155,7 @@ const products = [
     color: 'White, Walnut, Grey Oak, Black, Custom',
     thickness: '21mm',
     size: '600x600mm, 600x1200mm, Custom Sizes Available',
-    density: '120-160 kg/m³',
     nrc: '0.80-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Living Rooms, Bedrooms, Home Offices, Apartments, TV Background Walls',
     features: [
       'Trendy PS slat design with wood-look finish',
@@ -190,9 +180,7 @@ const products = [
     color: 'Wood Grain: Walnut, Oak, Grey, Custom',
     thickness: '18mm, 21mm',
     size: '600x2400mm, 600x1200mm, Custom Sizes Available',
-    density: '120-160 kg/m³',
     nrc: '0.80-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Kitchens, Bathrooms, Balconies, Moisture-Prone Interiors, Restaurants',
     features: [
       '100% waterproof PS surface',
@@ -217,9 +205,7 @@ const products = [
     color: 'White, Beige, Grey, Black, Custom',
     thickness: '25mm, 40mm',
     size: '600x600mm, 600x1200mm',
-    density: '120-160 kg/m³',
     nrc: '0.85-0.95 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Hotels, Restaurants, Cafes, Bars, Lobbies, Event Spaces',
     features: [
       'High NRC 0.9 for busy hospitality spaces',
@@ -246,9 +232,7 @@ const products = [
     color: 'Walnut, Grey, Black, White, Custom Colors',
     thickness: '12mm, 15mm, 18mm',
     size: 'Hexagon 300mm (point-to-point), Custom Sizes',
-    density: '200-250 kg/m³',
     nrc: '0.70-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Modern Offices, Creative Spaces, Retail Stores, Restaurants, Hotel Lobbies, TV Studios',
     features: [
       'Unique hexagonal shape for creative wall designs',
@@ -274,9 +258,7 @@ const products = [
     color: 'Walnut, White, Black, Grey, Custom',
     thickness: '12mm, 15mm, 18mm',
     size: 'Hexagon 300mm (point-to-point), Custom Sizes',
-    density: '200-250 kg/m³',
     nrc: '0.70-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Feature Walls, TV Background Walls, Creative Spaces, Retail, Lobbies',
     features: [
       'Sculptural 3D honeycomb relief effect',
@@ -301,9 +283,7 @@ const products = [
     color: 'Grey, White, Black, Beige, Custom',
     thickness: '9mm, 12mm',
     size: 'Hexagon 200mm-300mm (point-to-point), Custom',
-    density: '180-220 kg/m³',
     nrc: '0.70-0.85 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Bedrooms, Recording Studios, Kids Rooms, Offices, Playrooms',
     features: [
       'Peel-and-stick backing, no tools needed',
@@ -328,9 +308,7 @@ const products = [
     color: 'Walnut, Grey, Black, White, Custom',
     thickness: '12mm, 15mm',
     size: 'Hexagon 300mm (point-to-point), Custom Sizes',
-    density: '200-250 kg/m³',
     nrc: '0.70-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Recording Studios, Game Rooms, Music Rooms, Home Offices, Streamer Rooms',
     features: [
       'Tames early reflections in small acoustic spaces',
@@ -357,9 +335,7 @@ const products = [
     color: 'Wide Range of Colors Available, Custom Printing Options',
     thickness: '9mm, 12mm, 15mm',
     size: '1200x2400mm Sheets, Custom Dimensions',
-    density: '150-200 kg/m³',
     nrc: '0.80-0.95 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Architectural Features, Curved Walls, Auditoriums, Concert Halls, Theaters, Exhibition Spaces',
     features: [
       'Flexible design conforms to curved surfaces',
@@ -385,9 +361,7 @@ const products = [
     color: 'Custom Fabric Colors, Custom Printing',
     thickness: '9mm, 12mm, 15mm',
     size: '1200x2400mm Sheets, Custom Dimensions',
-    density: '150-200 kg/m³',
     nrc: '0.80-0.95 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Curved Walls, Ceiling Clouds, Auditoriums, Art Installations, Exhibition Booths',
     features: [
       'Cold-bendable to minimum radius of 300mm',
@@ -412,9 +386,7 @@ const products = [
     color: 'Wood Veneer Finishes: Walnut, Oak, Grey, Custom',
     thickness: '12mm, 15mm',
     size: '1200x2400mm Sheets, Custom Dimensions',
-    density: '200-240 kg/m³',
     nrc: '0.80-0.90 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Columns, Pillars, Curved Reception Desks, Retail Displays, Circular Lobbies',
     features: [
       'Bends to wrap columns and circular surfaces',
@@ -439,9 +411,7 @@ const products = [
     color: 'Wide Color Range, Custom Printing',
     thickness: '9mm, 12mm',
     size: '1200x2400mm Sheets, Custom Dimensions',
-    density: '150-200 kg/m³',
     nrc: '0.80-0.95 (NRC)',
-    fireRating: 'Class B1 (GB 8624)',
     application: 'Arched Ceilings, Domes, Theater Walls, Concert Halls, Religious Buildings',
     features: [
       'Conforms to arches, domes, and barrel vaults',
@@ -468,9 +438,7 @@ const products = [
     color: 'Fully Customizable — Any Wood Finish, Stain, or Paint',
     thickness: 'Custom (12mm-50mm)',
     size: 'Fully Custom — CAD/CAM Manufactured',
-    density: 'Custom Based on Design Requirements',
     nrc: '0.70-0.95 (NRC, Design Dependent)',
-    fireRating: 'Class B1 Available (GB 8624)',
     application: 'Feature Walls, Brand Spaces, Luxury Retail, Museums, Airports, Custom Architectural Projects',
     features: [
       'Fully customizable shapes and patterns',
@@ -496,9 +464,7 @@ const products = [
     color: 'Fully Customizable Finishes',
     thickness: 'Custom (12mm-50mm)',
     size: 'Fully Custom — CAD/CAM Manufactured',
-    density: 'Custom Based on Design Requirements',
     nrc: '0.70-0.95 (NRC, Design Dependent)',
-    fireRating: 'Class B1 Available (GB 8624)',
     application: 'Brand Feature Walls, Corporate Lobbies, Showrooms, Flagship Stores',
     features: [
       'Logos and brand patterns cut into panels',
@@ -523,9 +489,7 @@ const products = [
     color: 'Black, Grey, Custom Colors',
     thickness: '30mm, 50mm',
     size: 'Custom Sizes Available',
-    density: '150-200 kg/m³',
     nrc: '0.80-0.95 (NRC)',
-    fireRating: 'Class B1 Available (GB 8624)',
     application: 'Recording Studios, Auditoriums, Broadcast Rooms, Music Halls, Home Theaters',
     features: [
       'Deep pyramid profile scatters reflections',
@@ -550,9 +514,7 @@ const products = [
     color: 'Any Custom Finish and Color',
     thickness: 'Custom (12mm-50mm)',
     size: 'Fully Custom — CAD/CAM Manufactured',
-    density: 'Custom Based on Design Requirements',
     nrc: '0.70-0.95 (NRC, Design Dependent)',
-    fireRating: 'Class B1 Available (GB 8624)',
     application: 'Luxury Retail, Museums, Art Galleries, Boutique Hotels, Showrooms',
     features: [
       'Bespoke geometric cuts for signature interiors',
@@ -683,9 +645,7 @@ function renderProductDetail() {
     <tr><td>Color Options</td><td>${product.color || '-'}</td></tr>
     <tr><td>Thickness</td><td>${product.thickness || '-'}</td></tr>
     <tr><td>Standard Size</td><td>${product.size || '-'}</td></tr>
-    <tr><td>Density</td><td>${product.density || '-'}</td></tr>
     <tr><td>Sound Absorption</td><td>${product.nrc || '-'}</td></tr>
-    <tr><td>Fire Rating</td><td>${product.fireRating || '-'}</td></tr>
     <tr><td>Application</td><td>${product.application || '-'}</td></tr>
   `;
   document.getElementById('specs-table').innerHTML = specsHTML;
