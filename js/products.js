@@ -153,6 +153,7 @@ const products = [
       'image/product/PS-slat-1/5.jpg',
       'image/product/PS-slat-1/6.jpg'
     ],
+    pattern: 'hex-pattern',
     material: '100% Polyester Fiber, MDF',
     color: 'Colorful Black,Retro Blue,Customization',
     thickness: '21mm',
