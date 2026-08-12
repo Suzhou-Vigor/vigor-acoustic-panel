@@ -639,7 +639,7 @@ function renderProductCards(filterCategory, searchQuery) {
 // Detail images per product category (image/details folder)
 const detailImages = {
   'wood-veneer': 'image/details/wood.jpg',
-  'ps-salt': 'image/details/PS.jpg',
+  'ps-slat': 'image/details/PS.jpg',
   'hexagon-wood': 'image/details/hexagon.jpg',
   'curved-flexible': 'image/details/flexible.jpg',
   'special-shape': 'image/details/special.jpg'
